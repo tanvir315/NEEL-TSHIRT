@@ -1,11 +1,13 @@
+.nav-section{
+    background-color: #9376e0;
+
+}
 .nav-container{
     min-height: 50px;
     display: flex;
     align-items: center;
-    max-width: 1800PX;
-    margin: 0 auto;
-    background-color: #9376e0;
-}
+    max-width: 1400PX;
+    margin: 0 auto;}
 
 
 .logo-container{
@@ -129,7 +131,7 @@
         border-radius: 10px;
         padding: 0 10px;
         box-shadow: 2px 2px 4px black;
-        max-height: 480px;
+        max-height: 500px;
 
     }
 
@@ -160,3 +162,25 @@
         font-weight: 900;
 
     }
+
+
+    .discount-section{
+        margin: 20px;
+        background-color: #9376e0;
+        min-height: 500px;
+        padding: 20px 0;  
+    }
+
+    .discount-container{    
+        max-width: 1400px;
+        margin: 0 auto;
+        min-height: 300px;
+        display: flex;
+        align-items: center; 
+    }
+    .discount-img{
+        width: 50%;    }
+
+        .discount-img img{
+            border-radius: 20px;
+        }

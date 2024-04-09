@@ -102,6 +102,11 @@
 
 }
 
+.banner-btn:hover{
+    box-shadow: 0 0 20px #e893cf;
+    -webkit-transform: 1.1;
+}
+
 .icon-container{    
     display: flex;
     justify-content: space-between;

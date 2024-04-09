@@ -12,7 +12,6 @@
 
 .logo-container{
     display: flex;
-    margin-left: 30px;
     width: 50%;
 }
 
@@ -45,7 +44,7 @@
     bottom: 40px;
     background-color: #e893cf;
     padding: 8px 15px;
-    margin-right: 50px;
+    
 }
 
 .banner-container{
@@ -60,7 +59,6 @@
 
 .banner-text{
     width: 50%;
-    margin-left: 50px;
     font-size: 50px;
     text-align: center;
 }
@@ -111,7 +109,8 @@
     display: flex;
     justify-content: space-between;
     width: 60%;
-    margin: 0 auto 40px;}
+    margin: 0 auto 40px;
+    }
 
     .products{
         text-align: center;
@@ -171,21 +170,55 @@
 
     .discount-section{
         margin: 20px;
-        background-color: #9376e0;
+        background-color: #e6e1f3;
         min-height: 500px;
         padding: 20px 0;  
+        border-radius: 10px;
+
     }
 
     .discount-container{    
         max-width: 1400px;
-        margin: 0 auto;
+        margin: 5px auto;
         min-height: 300px;
         display: flex;
         align-items: center; 
-    }
-    .discount-img{
-        width: 50%;    }
 
-        .discount-img img{
-            border-radius: 20px;
-        }
+    }
+
+    .discount-img{
+        width: 50%;    
+        margin: 50px;
+        display: flex;
+    }
+
+    .discount-img img{
+        width: 70%;
+
+    }
+
+    .discount-text{
+        width: 50%;
+    }
+
+    .discount-text button{
+        box-sizing: border-box;
+        color: white;
+        background-color: #9376e0;
+        padding: 20px;
+        text-decoration: none;
+    }
+
+    .discount-number{
+       background-color: #e893cf;
+       height: 90px;
+       width: 90px;
+       font-size: 30px;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: absolute;
+       left: 34%;
+    }
+

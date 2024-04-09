@@ -1,0 +1,100 @@
+@media screen and (max-width: 780px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo-container p{
+        align-items: center;
+    }
+
+    .nav-item-container a{
+        margin-top: 20px;
+    }
+
+.login-btn{
+    margin-bottom: 15px;
+}
+
+
+    
+
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+
+    }   
+
+    .icon-container{   
+        align-items: center;
+        margin-left: 50px;
+        
+    } 
+
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+    .discount-img img{
+        width: 120%;    
+        margin-left: 50px;
+        
+    }
+
+    .discount-number{
+        left: 20%;
+    }
+
+    
+} 
+
+@media screen and (max-width: 480px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item-container a{
+        margin-top: 20px;
+    }
+
+.login-btn{
+    margin-bottom: 15px;
+}
+
+
+    
+
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+
+    }   
+
+    .icon-container{   
+        align-items: center;
+        
+    } 
+
+    .banner-img{
+        width: 80%;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+
+    
+    
+    .grid-container{
+        grid-template-columns: repeat(1fr);
+    }
+    
+}
